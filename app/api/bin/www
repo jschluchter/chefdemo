@@ -5,7 +5,8 @@ var app = require('../app');
 var debug = require('debug')('rating-api:server');
 var http = require('http');
 
-app.set('port', 3000);
+var port = 3000;
+app.set('port', port);
 
 
 var server = http.createServer(app);
