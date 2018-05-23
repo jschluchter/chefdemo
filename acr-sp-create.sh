@@ -1,7 +1,7 @@
-ACR_RESOURCE_GROUP=YOUR_AZURE_RESOURCE_GROUP
-ACR_NAME=YOUR_AZURE_CONTAINER_REGISTRY
-BLDR_PRINCIPAL_NAME=YOUR_SP_NAME
-BLDR_PRINCIPAL_PASSWORD="YOUR_STRONG_PASSWORD"
+ACR_RESOURCE_GROUP=rg-chefconf
+ACR_NAME=chefconf
+BLDR_PRINCIPAL_NAME=chefconfdemo
+BLDR_PRINCIPAL_PASSWORD="areallystrongpasswordhere"
  
 # Create Service Principal for Habitat Builder
 ACR_ID=$(az acr show --name $ACR_NAME --resource-group $ACR_RESOURCE_GROUP --query "id" --output tsv)
