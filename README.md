@@ -1,4 +1,4 @@
-# Production-ready Kubernetes (on AKS) and Habitat
+# Production-ready Kubernetes (on AKS) and Habitat
 in *40 minutes*
 
 ### Steps
