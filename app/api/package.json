@@ -1,7 +1,7 @@
 {
   "name": "rating-api",
   "version": "1.4.1",
-  "description": "Rating API for Chef/Habitat Demo",
+  "description": "Rating API for ACR / AKS => ChefConf Habitat Demo",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
     "start": "node ./bin/www"
