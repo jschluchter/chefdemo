@@ -4,17 +4,20 @@
   "description": "Rating Front-end for ACR / AKS =>  ChefConf Habitat Demo",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "at-ui": "^1.2.0-beta",
+    "at-ui": "^1.3.1",
     "at-ui-style": "^1.3.2",
     "axios": "^0.17.1",
     "compression-webpack-plugin": "^1.1.3",
     "numeral": "^2.0.6",
-    "vue": "^2.3.4",
-    "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0"
+    "vue": "^2.5.17",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0",
+    "snyk": "^1.114.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -38,5 +41,6 @@
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
