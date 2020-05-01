@@ -4,7 +4,9 @@
   "description": "Rating API for ACR / AKS => ChefConf Habitat Demo",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.6.0",
@@ -16,6 +18,8 @@
     "hbs": "~4.0.1",
     "mongoose": "^4.13.8",
     "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
-  }
+    "serve-favicon": "~2.4.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
